@@ -1,0 +1,140 @@
+#注意冒号后边都有个空格 别删别删
+#注意冒号后边都有个空格 别删别删
+#注意冒号后边都有个空格 别删别删
+#注意冒号后边都有个空格 别删别删
+#注意冒号后边都有个空格 别删别删
+#注意冒号后边都有个空格 别删别删
+#注意休息 任务名不是在这个文件里看 去scripts看脚本文件名字 比如duokan.js 就是duokan 4399_ylc.js就是4399_ylc
+#格式报错自行百度yaml格式在线校验进去测试下就行了...
+#任务列表 任务1&任务2
+cbList: quark&sfacg&hbooker&lenovo&qidian&acdog&pfjsq
+#是否需要推送结果 true全部推送  false以及不填只推送失败结果
+needPush: false
+#推送参数
+Push:
+#企业微信推送
+  qywx:
+    corpsecret:
+    corpid:
+    agentid:
+    mediaid:
+#telegram推送
+  tgpushkey:
+    tgbotoken:
+    chatid:
+#server酱turbo版
+  sckey:
+#qmsg酱
+  qmsgkey:
+#推送加
+  pushplustoken: 322db9e4f4834325837f7a5390dc7cfa
+
+# 夸克网盘
+quark:
+  cookie: _UP_A4A_11_=wb9641e7d8c940d29822850e46cf7a7b; tfstk=fXuriJfTuULPeli33-aU38kMTCa8JPpsq2wQtXc3N82uNzGn0XGwwWMStJoUnvdRPzvR-JctHuwodz6e8xzuv0wQFJzE9ARXCFTswbULrd965l1aBl4Nq_XQEtqjyW5JCFTsZ1FYaip6924rHJF3-7q3-iA4w-V3tv2umtVa6y2nKyA4n7FNEgbutZf0_jfTKR_4_uv-6eW_NdyQ4Rc2XwbEBNZuIDwc-d04aa2iZ-7h-8EFaAGqNL7tGz3ZQ5MWoakZtfn302WDQJ3qi4mnMTR07jojfuo2EwyjP-EtrP5HrjzzUl0-E_R-IjlnfouXsFUzr8mQyX1wFjurFb3qO6j0zzi4b4zMWT2IcfuUT2ppuAln6Dqq8TSr09FmgxuK49j3qSF4CIR0RHXeACY4f5IdvunYgROJwMILqSF4CIRVvME8kSy6wQC..; _UP_335_2B_=1; _UP_D_=pc; _UP_30C_6A_=st96562019a55nxlewrscry5dhdm8xpg; _UP_TS_=sg17efafc7c90a4321a61c065d449fa8d90; _UP_E37_B7_=sg17efafc7c90a4321a61c065d449fa8d90; _UP_TG_=st96562019a55nxlewrscry5dhdm8xpg; __pus=81a8c0e4523599faa5688854412d20aeAASDcVZjOxgSzyJCzdWGGQjSx7sQRPWmkSUT3l0eQ/jw68KSWzzacZqdYfeSHmRZOKk8Rzl4u6wL5erLG8IvZV6z; __kp=a98c3330-1015-11ef-8835-2bd57ca8b9c9; __kps=AAQ9nndsz9iPcPcG+denyS7u; __ktd=wkfPvdEttoG3XTSDZXc9jw==; __uid=AAQ9nndsz9iPcPcG+denyS7u; __puus=4afb2041d97ccf631a65221a9a890a5cAAT9v/1hsJLw4g724EM+S7QpK/OKdAY8H5c7IioHhfUhXMvDZPO/8qz3UHqid1bKR41px745cJ7QptWtZFGNjSOCTvRe7GluKKEqFuzkUwy1iEuLa5yUKZGF5kuvcp8zXGqWKFCw7AAKwbkODrQXPWc/xXk2/QwCpJqZxVkoZKcuzWp18qN4QEhJphl7xOj02qk8OuU60wkSHb5s1UIhwi8G
+
+#好游快爆 qq 留个用于兑换qb的q scookie 去我的-赚爆米花-任务里 随便抓一个post包 请求数据里有scookie 直接分享商品链接查看  gid 和 key 分享需要兑换的商品链接查看 例https://huodong3.3839.com/n/hykb/bmhstore2/inc/libao/index.php?gid=6237 比如上面这个 gid就是6237  key就是 libao 就是查看inc/后面的那个东西
+hykb:
+  scookie: 1|0|107610508|5b+r54iG55So5oi3MTA3NjEwNTA4|kb17318F169574CB8AD768610093CC8C49|7W6xIRurIRSfIJeUGJZ0oJVnIT9r7WacpWDroR8wplI=%1|2ac757fb807c8f310b90c01c54f15098
+  qq: 645934926
+  gid: 14403
+  key: virtual
+
+
+#什么值得买网页端 全部cookie
+smzdm:
+  cookie: __ckguid=F8LbVtlIX7uo7SYohHpOOt6; device_id=2130706433171447324454763457ba1c3f73e5b48d706868590aa7b424; homepage_sug=d; r_sort_type=score; Hm_lvt_9b7ac3d38f30fe89ff0b8a0546904e58=1714473247,1714532830; sess=BA-1y1%2Fq7rn17Tjdu5PcyssmW%2Fw0cQ87YUE41ry%2FkCd7%2FeIRJiN8O72OkjtZVnG8xTHK8Lwkb1FL3mQg9e34PKDCMbrLE8NKE3Ksy6afW7Nf4exPHDpwCxTs%2Fyn; user=user%3A4971240378%7C4971240378; smzdm_id=4971240378; _zdmA.uid=ZDMA.5N-zsRPJn.1714532895.2419200; smzdm_user_view=CF6A730F8E0AD4A24E3DF638F6C7A3E4; smzdm_user_source=224BA94F97B058F6CF2422D8A0AEFB5E; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%224971240378%22%2C%22first_id%22%3A%2218f2e91a2fdc1-063b926499a889-26031151-1327104-18f2e91a2fec67%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fwww.baidu.com%2Flink%22%7D%2C%22%24device_id%22%3A%2218f2e91a2fdc1-063b926499a889-26031151-1327104-18f2e91a2fec67%22%7D; Hm_lpvt_9b7ac3d38f30fe89ff0b8a0546904e58=1714532964
+
+
+#sf轻小说 app
+# sfacg:
+#   cookie: .SFCommunity=0933C3E49B831C34B4FEA73C6A99FC7DB293A16447E5173B389EDB29169856A93105FCF9E7BB108ABA812DE67D0E5BBFECB9BAB8864F69AAAEC9EE22668ADCC17AC160D3DDA189C643157FF0DB7DB17C75AE02419C975BAC208B8274FB5301DE; session_PC=13861E47D13F4A482205C5A0BEBDD143;
+#   ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+#   authorization: Basic YW5kcm9pZHVzZXI6MWEjJDUxLXl0Njk7KkFjdkBxeHE=
+sfacg:
+  cookie: .SFCommunity=9CF71B4E6EA1A9FE01AC753A262115D3C0FC30B2E7E22175B9F7C25C1ADB83339C341680277AE0812A82F256AE618A0A6DBB4D9DB163A41E8779F2B8803AAD5479CDDCD62761B989953F9EAF7807914BC2632975D289DB2D33FF5DE37C4E4AAF; session_PC=C339EF158CC68CA7EA39B78420464654;
+  ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+  authorization: Basic YW5kcm9pZHVzZXI6MWEjJDUxLXl0Njk7KkFjdkBxeHE=
+  
+
+#刺猬猫小说 book_id与reader_id用于自动投推荐票， reader_id与buy_list用于使用代币自动购买章节，buy_list格式为" [100287528,100352526,100357750] " 如不需要该功能则留空
+hbooker:
+  token: bc762645905dd7bcc34dba8bde9768b7
+  account: 书客63756384686
+  device_token: ciweimao_
+  app_version: 2.9.319
+  book_id:
+  reader_id: 7553846
+  buy_list:
+
+
+#次元狗 全部cookie
+acdog:
+  cookie: wordpress_sec_66e58f888bdc2e3b653dd6569062c81d=c068bac4ec6beb7e2a484efacf97147d%7C1715669152%7CBwqSVCfC1c4hohV62q4e8TtG4SPYwV53XlK5AJmekna%7Ce46f9c2eae580941a5aa1a6b8d8c66d5b6f36e62b8c7d87babdbdeae5dc4b1eb; _gid=GA1.2.887675600.1714459476; wordpress_logged_in_66e58f888bdc2e3b653dd6569062c81d=c068bac4ec6beb7e2a484efacf97147d%7C1715669152%7CBwqSVCfC1c4hohV62q4e8TtG4SPYwV53XlK5AJmekna%7C4c772db57a3688ef00d5f2ad7be1f2e014c826a4dfb3afd759a9b83433088b40; Hm_lvt_3c9107131b7cd2b4566c4409fc9b3a81=1714459476,1714533069; _ga=GA1.2.1361763427.1714459476; _gat_gtag_UA_121814896_1=1; _ga_ZCQCZY76GC=GS1.1.1714533069.2.0.1714533076.53.0.0; Hm_lpvt_3c9107131b7cd2b4566c4409fc9b3a81=1714533077
+
+#登陆联想智选app的手机号密码以及请求头header中的baseinfo
+lenovo:
+  account: 17637011017
+  password: 2015xiaoXin.
+  baseinfo:
+
+
+#曲奇云盘
+quqi:
+  cookie: Hm_lvt_38b2b7c8c8fc8ca2896fb2e7a54fd92f=1714533186; Hm_lpvt_38b2b7c8c8fc8ca2896fb2e7a54fd92f=1714533186; forward=; passport_id=2546554; session_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzcG9ydElkIjoiMjU0NjU1NCIsImlzcyI6IjZ0WldaTmxVUHdINTVNeFpUbGtJMTV4ZGdZc2l6VG1yIn0.L0DG0AaTNNghW9fZrU4g0f2vwTROKInUNdeR6SCndew; login_way=2; quqiid=1203552
+
+
+#Qoo token  Qoo.js
+Qoo:
+  token:
+
+
+#起点读书app
+qidian:
+  cookie: qid=888a75f81e8c110fde2140a210001a31760a; ywkey=ywnSXWXavQI2; ywguid=854016265046; appId=12; areaId=30; lang=cn; mode=normal; bar=101; cmfuToken=N((Du35kYZ4rQRHiNugjFU7wjNPZCK9y1iQkvBppcuWGjd_IIqpwFPMVVjm-0rnP2DIvAzpnlgIIzA7Rb5Gk58YHOzcdsRPEFz5QnegJYtJEqQhYHeWnJ_xwBA5oABR7ITkGftZfoMOK-05DaRc1TLT31Iyz7iqhts81VKXwF7N7s09Z4r8QFefFGtB9XHuRDt723WqaDVSYl2olhPEFjTwinF0eOJLwPOCefA9zrFILh5ctyljaOGxzEWcHiQX_SUH0nnwoeeusas1; QDInfo=X9XPsMBR1UGQZP1v+412G+twHjPkKthq0NRj+NlQUFWCdhQS3U1qOQByRytWBp8/sKY0mQ357a1t37A96k4YoaTnnWFt8AVkeXcSLvl/s7tHkzSl9MUkrjErU51RcryKK37iAUHzTIvAWkT0H2TJXL3Eb76k0jsRiywNlfyEvnp0T9hxsDjmE0jDj56kI2mNT2LRl3zUDUAmwYrNW7GbzOwxAiqbHwjzjU/vXXy4AHwFvEke3zRrdmoI7LjnJnOYkyxPC8WRcE5+pVlQF2Yy3idQ0jmMm4PZhohJO1y6w+LsuWdkAPNU404YLXYklzH8eclTrG9lu1M39bA5NK2RkA==
+  UserId: 残剑飞s
+  deviceUid:
+  BookId:
+  TicketCount:
+  roleId:
+  version: 7.9.341
+
+
+#考试宝  clientid为请求头中 client-identifier
+kaoshibao:
+  clientid:
+  authorization:
+
+#玩吧
+wb:
+  ticket:
+  deviceId:
+  nsr:
+
+#美团买菜 useid fingerprint token uuid
+MeiTuan:
+  MTMC_userId:
+  MTMC_fingerprint:
+  MTMC_token:
+  MTMC_uuid:
+
+#次元姬小说
+hwnovel:
+  token: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ4eW5vdmVsIiwic3ViIjoidXNlclRva2VuIiwidXNlcklkIjoiMjAzMDMxNzEzODc2NDgyNDQ2In0.5XI-XtqiQgsaZ2yAnodAvQL7OvL7jrkuSIGQfHkBqKg
+
+# Anime字幕论坛
+Anime:
+  cookie: 3RQm_2132_saltkey=wWPa4Ay1; 3RQm_2132_lastvisit=1714529852; 3RQm_2132_sid=dL9fXc; Hm_lvt_7c3d97d881b85082f4dab3fc84125e17=1714533454; PHPSESSID=jodeoql0do9a33lelq7928nr7v; 3RQm_2132_ulastactivity=f57baQwEuV6kdTiKJTbb2wZOplX3gIHpOoyWkaIHE8QHGOItpVhg; 3RQm_2132_auth=3c1eA884JLKiHBwR9V7S1Z5on9Z9PlRAT%2BTcxHKQ73Jd8%2BTMq%2BviLYKg7VSboG5NgiesEJLK175SS5%2B2TbHKXJ44Jw; 3RQm_2132_resendemail=1714533500; 3RQm_2132_nofavfid=1; Hm_lpvt_7c3d97d881b85082f4dab3fc84125e17=1714533522; 3RQm_2132_secqaaqSdL9fXc=25.a42d97bb270dded165; 3RQm_2132_lastact=1714533521%09misc.php%09seccode; 3RQm_2132_seccodecSdL9fXc=26.fc0bb18866f98d0ec1
+
+
+# linkai
+linkai:
+  Authorization:
+
+# 泡芙加速器
+pfjsq:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTQ5OTQyMDksImlhdCI6MTcxNDk5MDYwOSwianRpIjoiMTEyNTQ0NjMzNTI4MyJ9.W5aJbqeJVtyKLqvaRpKbiohLD4XrTpA4GFQU0Wkp2ik
+
+
+
+
