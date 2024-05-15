@@ -1,31 +1,62 @@
 name: Run Checkbox
+
 on:
   schedule:
-   - cron:  '30 23 * * *'  # 每天的UTC时间17 10执行，对应北京时间的次日7:00
-#   - cron:  '59 15 * * *'  # 每天的UTC时间15:59执行，对应北京时间的23:00
+    - cron: '0 23 * * *'  # 每天的UTC时间23:00执行，对应北京时间次日7:00
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      CONFIG_YAML: ${{ secrets.CONFIG_YAML }}
+      USERNAME: ${{ secrets.USERNAME }}
+      PASSWORD: ${{ secrets.PASSWORD }}
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Install Node.js
+    - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-       node-version: 20.12.0
-    - name: Install pnpm
-      uses: pnpm/action-setup@v3
-      with:
-        version: 8
-        run_install: true
+        node-version: '20.12.0'
+
+    - name: Install dependencies
+      run: npm install axios
 
     - name: Run Checkbox
-      run: 
-        node checkbox.js
+      run: node checkbox.js
+
+
+
+# name: Run Checkbox
+# on:
+#   schedule:
+#    - cron:  '30 23 * * *'  # 每天的UTC时间17 10执行，对应北京时间的次日7:00
+# #   - cron:  '59 15 * * *'  # 每天的UTC时间15:59执行，对应北京时间的23:00
+#   workflow_dispatch:
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     env:
+#       CONFIG_YAML: ${{ secrets.CONFIG_YAML }}
+
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v4
+
+#     - name: Install Node.js
+#       uses: actions/setup-node@v4
+#       with:
+#        node-version: 20.12.0
+#     - name: Install pnpm
+#       uses: pnpm/action-setup@v3
+#       with:
+#         version: 8
+#         run_install: true
+
+#     - name: Run Checkbox
+#       run: 
+#         node checkbox.js
     
