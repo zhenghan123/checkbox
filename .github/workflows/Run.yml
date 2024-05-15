@@ -4,6 +4,17 @@ on:
   schedule:
     - cron: '0 23 * * *'  # 每天的UTC时间23:00执行，对应北京时间次日7:00
   workflow_dispatch:
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v2
+
+#     - name: Check network connectivity
+#       run: |
+#         ping -c 4 drive-m.quark.cn
 
 jobs:
   build:
@@ -15,6 +26,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+    - name: Check network connectivity
+      run: |
+        ping -c 4 drive-m.quark.cn
 
     - name: Set up Node.js
       uses: actions/setup-node@v4
