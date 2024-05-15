@@ -15,11 +15,13 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      
 
-    - name: Test network connectivity
+    - name: Set up DNS
+      run: echo "1.1.1.1" | sudo tee /etc/resolv.conf > /dev/null
+
+    - name: Check network connectivity
       run: |
-        curl -v 49.235.243.254
+        ping -c 4 drive-m.quark.cn
 
     - name: Set up Node.js
       uses: actions/setup-node@v4
