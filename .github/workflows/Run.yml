@@ -2,7 +2,7 @@ name: Run Checkbox
 
 on:
   schedule:
-    - cron: '30 23 * * *'  # 每天的UTC时间23:30执行，对应北京时间次日7:30
+    - cron: '59 23 * * *'  # 每天的UTC时间23:30执行，对应北京时间次日7:30
   workflow_dispatch:
 
 jobs:
@@ -26,4 +26,4 @@ jobs:
       run: npm install axios
 
     - name: Run Checkbox
-      run: node checkbox.js sfacg
+      run: node checkbox.js 
