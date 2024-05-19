@@ -26,4 +26,4 @@ jobs:
       run: npm install axios
 
     - name: Run Checkbox
-      run: node checkbox.js 
+      run: node checkbox.js sfacg
