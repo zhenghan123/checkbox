@@ -28,11 +28,7 @@ Push:
   qmsgkey:
 #推送加
   pushplustoken: 322db9e4f4834325837f7a5390dc7cfa
-#vocechat
-  vocechat: 
-    api: 
-    uid: 
-    key:
+
 
 # 夸克网盘
 quark:
