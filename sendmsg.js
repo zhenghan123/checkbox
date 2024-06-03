@@ -2,13 +2,19 @@ const axios = require("axios");
 const {qywx,tgpushkey,qmsgkey,sckey,pushplustoken}=config.Push
 const {corpsecret,corpid,agentid,mediaid} = qywx
 const {tgbotoken,chatid} = tgpushkey
-async function sendmsg(text) {
+
+const {api,uid,key} = vocechat ||{}
+async function sendmsg(text, isMarkdown=false) {
+
     console.log(text)
     if(sckey) await server(text);
     if(qmsgkey) await qmsg(text);
     if(pushplustoken) await pushplus(text);
     if(corpsecret) await wx(text); 
     if(tgbotoken) await tgpush(text)
+
+    if(vocechat&&api)await vocechatP(text, true)
+
 }
 
 function server(msg) {
