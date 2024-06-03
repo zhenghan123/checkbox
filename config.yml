@@ -98,7 +98,7 @@ qidian:
   BookId:
   TicketCount:
   roleId:
-  version: 10.10
+  version: 10.05
 
 
 #考试宝  clientid为请求头中 client-identifier
